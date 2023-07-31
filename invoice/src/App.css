@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table {
+
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+ 
+ 
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #d9c9c9;
+}
+.HoldInvoice{
+margin-top: 15px;
+display:grid;
+position: absolute;
+left: 20px;
+width: 50%;
+background-color: rgb(249, 245, 245);
+
+}
+
+.invoice{
+display: flex;
+justify-content: center;
+
+
+ 
+}
+.Email ,.Date{
+padding: 0 10px;
+
+}
+.HoldTotal{
+ padding-left: 10px; 
+ position: relative;
+ left: 10px;
+
+
+ 
+
+}
+@media (max-width: 768px) {
+  table {
+   
+    font-size: 14px;
+  }
+
+  th, td {
+   
+    padding: 8px;
+  }
+  
+  tr {
+    display: block;
+    margin-bottom: 20px;
+   
+  }
+
+
+
+
+}
