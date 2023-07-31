@@ -3,7 +3,7 @@ import Main from "./Main";
 function App() {
   const expenses = [
     {
-      id: "e11254wewe12",
+      id: "e1125",
       title: "ddd",
       amount: 882,
       date: new Date(2021, 2, 28),
